@@ -1,0 +1,9 @@
+[
+    {
+        "property": "mod.sivtech.active_border_width",
+        "label": "Set border width to:",
+        "type": "string",
+        "defaultValue": "2px",
+        "placeholder": "1px (px,...)"
+    }
+]
