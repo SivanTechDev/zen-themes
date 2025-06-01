@@ -1,0 +1,6 @@
+/* Thicken the active tab border in split view */
+#tabbrowser-tabpanels[zen-split-view="true"] .browserSidebarContainer.deck-selected {
+  &:not(.zen-glance-overlay) {
+    outline: var(--mod-sivtech-active_border_width, 2px) solid var(--zen-primary-color) !important;
+  }
+}
