@@ -6,33 +6,33 @@
 }
 
 #context_zenSplitTabs {
-  --menu-image: url('Assets\sidebars-right.svg') !important;
+  --menu-image: url('assets/sidebars-right.svg') !important;
 }
 
 #context-zen-change-workspace-tab {
-  --menu-image: url('Assets\move-tab.svg') !important;
+  --menu-image: url('assets/move-tab.svg') !important;
 }
 
 #context-zenSplitLink {
-  --menu-image: url('Assets\split.svg') !important;
+  --menu-image: url('assets/split.svg') !important;
 }
 #context_zenOpenWorkspace {
-  --menu-image: url('Assets\open.svg') !important;
+  --menu-image: url('assets/open.svg') !important;
 }
 
 #context_zenEditWorkspace,
 #zenToolbarThemePicker {
-  --menu-image: url('Assets\edit-theme.svg') !important;
+  --menu-image: url('assets/edit-theme.svg') !important;
 }
 
 /* Context Menu Icons */
 
 #context-video-pictureinpicture:not([checked='true']) .menu-iconic-icon {
-  list-style-image: url('Assets\media-pip.svg') !important;
+  list-style-image: url('assets/media-pip.svg') !important;
 }
 
 #context-media-loop:not([checked='true']) .menu-iconic-icon {
-  list-style-image: url('Assets\media-loop.svg') !important;
+  list-style-image: url('assets/media-loop.svg') !important;
 }
 
 :not(:not(menubar) > menu, #ContentSelectDropdown)
@@ -74,48 +74,48 @@
 }
 
 #context-savepage {
-  --menu-image: url('Assets\save.svg');
+  --menu-image: url('assets/save.svg');
 }
 #context-selectall,
 .textbox-contextmenu menuitem[cmd*='selectAll'],
 #context_selectAllTabs,
 #toolbar-context-selectAllTabs {
-  --menu-image: url('Assets\edit-select-all.svg');
+  --menu-image: url('assets/edit-select-all.svg');
 }
 
 #context-undo,
 .textbox-contextmenu menuitem[cmd*='undo'],
 #context_undoCloseTab,
 #toolbar-context-undoCloseTab {
-  --menu-image: url('Assets\edit-undo.svg');
+  --menu-image: url('assets/edit-undo.svg');
 }
 
 #toggle_toolbar-menubar {
-  --menu-image: url('Assets\menu-bar.svg');
+  --menu-image: url('assets/menu-bar.svg');
 }
 
 #context-redo,
 .textbox-contextmenu menuitem[cmd*='redo'] {
-  --menu-image: url('Assets\edit-redo.svg');
+  --menu-image: url('assets/edit-redo.svg');
 }
 
 #context-copy,
 .textbox-contextmenu menuitem[cmd*='copy'],
 .textbox-contextmenu #strip-on-share,
 #placesContext_copy {
-  --menu-image: url('Assets\edit-copy.svg');
+  --menu-image: url('assets/edit-copy.svg');
 }
 
 #context-paste,
 .textbox-contextmenu menuitem[cmd*='paste'],
 #placesContext_paste_group {
-  --menu-image: url('Assets\edit-paste.svg');
+  --menu-image: url('assets/edit-paste.svg');
 }
 
 #context-cut,
 .textbox-contextmenu menuitem[cmd*='cut'],
 #placesContext_cut {
-  --menu-image: url('Assets\edit-cut.svg');
+  --menu-image: url('assets/edit-cut.svg');
 }
 
 #context-delete,
@@ -129,64 +129,64 @@ menuitem[id='placesContext_delete_history'],
 menuitem[id='placesContext_deleteHost'],
 #context_zenDeleteWebPanel,
 #context_zenDeleteWorkspace {
-  --menu-image: url('Assets\edit-delete.svg');
+  --menu-image: url('assets/edit-delete.svg');
 }
 
 #paste-and-go {
-  --menu-image: url('Assets\paste-and-go.svg');
+  --menu-image: url('assets/paste-and-go.svg');
 }
 
 #context-print-selection {
-  --menu-image: url('Assets\print.svg');
+  --menu-image: url('assets/print.svg');
 }
 
 #context-take-screenshot {
-  --menu-image: url('Assets\screenshot.svg');
+  --menu-image: url('assets/screenshot.svg');
 }
 
 #context-viewsource {
-  --menu-image: url('Assets\source-code.svg');
+  --menu-image: url('assets/source-code.svg');
 }
 
 #context-inspect-a11y {
-  --menu-image: url('Assets\accessibility.svg');
+  --menu-image: url('assets/accessibility.svg');
 }
 
 #context-inspect {
-  --menu-image: url('Assets\inspect.svg');
+  --menu-image: url('assets/inspect.svg');
 }
 
 #context-searchselect {
-  --menu-image: url('Assets\search-glass.svg');
+  --menu-image: url('assets/search-glass.svg');
 }
 
 #context-viewimage {
-  --menu-image: url('Assets\image-open.svg');
+  --menu-image: url('assets/image-open.svg');
 }
 
 #context-viewimageinfo {
-  --menu-image: url('Assets\info.svg');
+  --menu-image: url('assets/info.svg');
 }
 
 #context-saveimage,
 #context-video-saveimage {
-  --menu-image: url('Assets\image-save.svg');
+  --menu-image: url('assets/image-save.svg');
 }
 
 #context-savevideo {
-  --menu-image: url('Assets\video-save.svg');
+  --menu-image: url('assets/video-save.svg');
 }
 
 #context-viewvideo {
-  --menu-image: url('Assets\video-open.svg');
+  --menu-image: url('assets/video-open.svg');
 }
 
 #context-saveaudio {
-  --menu-image: url('Assets\audio-save.svg');
+  --menu-image: url('assets/audio-save.svg');
 }
 
 #context-copyimage-contents {
-  --menu-image: url('Assets\image-copy.svg');
+  --menu-image: url('assets/image-copy.svg');
 }
 
 #context-copyimage,
@@ -195,28 +195,28 @@ menuitem[id='placesContext_deleteHost'],
 #context-stripOnShareLink,
 #context_zenOpenNewTabWebPanel,
 #context-pdfjs-copy {
-  --menu-image: url('Assets\link.svg');
+  --menu-image: url('assets/link.svg');
 }
 
 #context-openlinkincurrent {
-  --menu-image: url('Assets\ext-link.svg');
+  --menu-image: url('assets/ext-link.svg');
 }
 
 #context-viewsource,
 #context-viewframesource,
 #context-viewpartialsource-selection {
-  --menu-image: url('Assets\source-code.svg');
+  --menu-image: url('assets/source-code.svg');
 }
 
 #context-sendimage,
 #context-sendvideo,
 #context-sendaudio {
-  --menu-image: url('Assets\mail.svg');
+  --menu-image: url('assets/mail.svg');
 }
 
 #context-setDesktopBackground,
 .viewCustomizeToolbar {
-  --menu-image: url('Assets\customize.svg');
+  --menu-image: url('assets/customize.svg');
 }
 
 #context-reloadimage,
@@ -225,13 +225,13 @@ menuitem[id='placesContext_deleteHost'],
 #toolbar-context-reloadSelectedTab,
 #toolbar-context-reloadSelectedTabs,
 #context_zen-reset-pinned-tab {
-  --menu-image: url('Assets\reload.svg');
+  --menu-image: url('assets/reload.svg');
 }
 
 #context-sendlinktodevice,
 #context_sendTabToDevice,
 #context-sendpagetodevice {
-  --menu-image: url('Assets\send-to-device.svg');
+  --menu-image: url('assets/send-to-device.svg');
 }
 
 #context-openlinkintab,
@@ -242,82 +242,82 @@ menuitem[id='placesContext_open:newtab'],
 menuitem[id='placesContext_openLinks:tabs'],
 menuitem[id='placesContext_openBookmarkLinks:tabs'],
 menuitem[id='placesContext_openBookmarkContainer:tabs'] {
-  --menu-image: url('Assets\tab.svg');
+  --menu-image: url('assets/tab.svg');
 }
 
 #context_openANewTab,
 #toolbar-context-openANewTab {
-  --menu-image: url('Assets\new-tab-image.svg');
+  --menu-image: url('assets/new-tab-image.svg');
 }
 
 #context-openlinkinusercontext-menu,
 menu[id='placesContext_open:newcontainertab'],
 menu[id='placesContext_openContainer:tabs'] {
-  --menu-image: url('Assets\container-tab.svg');
+  --menu-image: url('assets/container-tab.svg');
 }
 
 #context-openlink,
 menuitem[id='placesContext_open:newwindow'] {
-  --menu-image: url('Assets\window.svg');
+  --menu-image: url('assets/window.svg');
 }
 
 #context-openlinkprivate,
 menuitem[id='placesContext_open:newprivatewindow'] {
-  --menu-image: url('Assets\private-window.svg');
+  --menu-image: url('assets/private-window.svg');
 }
 
 #context-savelink {
-  --menu-image: url('Assets\downloads.svg');
+  --menu-image: url('assets/downloads.svg');
 }
 
 #spell-add-to-dictionary {
-  --menu-image: url('Assets\add-to-dictionary.svg');
+  --menu-image: url('assets/add-to-dictionary.svg');
 }
 
 #manage-saved-logins {
-  --menu-image: url('Assets\passwords.svg');
+  --menu-image: url('assets/passwords.svg');
 }
 
 #context-media-play,
 #context_playTab,
 #context_playSelectedTabs {
-  --menu-image: url('Assets\media-play.svg');
+  --menu-image: url('assets/media-play.svg');
 }
 
 #context-media-pause {
-  --menu-image: url('Assets\media-pause.svg');
+  --menu-image: url('assets/media-pause.svg');
 }
 
 #context-media-mute,
 #context_toggleMuteTab,
 #context_toggleMuteSelectedTabs,
 #context_zenToggleMuteWebPanel {
-  --menu-image: url('Assets\media-mute.svg');
+  --menu-image: url('assets/media-mute.svg');
 }
 
 #context-media-unmute,
 #context_toggleMuteTab[muted],
 #context_toggleMuteSelectedTabs[muted],
 #context_zenToggleMuteWebPanel[muted] {
-  --menu-image: url('Assets\media-unmute.svg');
+  --menu-image: url('assets/media-unmute.svg');
 }
 
 #context-media-playbackrate {
-  --menu-image: url('Assets\media-speed.svg');
+  --menu-image: url('assets/media-speed.svg');
 }
 
 #context-video-fullscreen {
-  --menu-image: url('Assets\fullscreen.svg');
+  --menu-image: url('assets/fullscreen.svg');
 }
 
 #context-leave-dom-fullscreen,
 menuitem[contexttype='fullscreen'][label*='Exit'] {
-  --menu-image: url('Assets\fullscreen-exit.svg');
+  --menu-image: url('assets/fullscreen-exit.svg');
 }
 
 #context-media-hidecontrols,
 #context-media-showcontrols {
-  --menu-image: url('Assets\permissions.svg');
+  --menu-image: url('assets/permissions.svg');
 }
 
 #context_pinTab,
@@ -326,36 +326,36 @@ menuitem[contexttype='fullscreen'][label*='Exit'] {
 #context_unpinSelectedTabs,
 .customize-context-moveToPanel,
 #context_zen-replace-pinned-url-with-current {
-  --menu-image: url('Assets\pin.svg');
+  --menu-image: url('assets/pin.svg');
 }
 
 #context_zen-add-essential {
-  --menu-image: url('Assets\essential-add.svg');
+  --menu-image: url('assets/essential-add.svg');
 }
 
 #context_zen-remove-essential {
-  --menu-image: url('Assets\essential-remove.svg');
+  --menu-image: url('assets/essential-remove.svg');
 }
 
 .customize-context-removeFromToolbar {
-  --menu-image: url('Assets\unpin.svg');
+  --menu-image: url('assets/unpin.svg');
 }
 
 #zen-sidebar-web-panel-pinned[pinned='true'] {
-  list-style-image: url('Assets\pin.svg') !important;
+  list-style-image: url('assets/pin.svg') !important;
 }
 
 #zen-sidebar-web-panel-pinned {
-  list-style-image: url('Assets\unpin.svg') !important;
+  list-style-image: url('assets/unpin.svg') !important;
 }
 
 #context_duplicateTab,
 #context_duplicateTabs {
-  --menu-image: url('Assets\duplicate-tab.svg');
+  --menu-image: url('assets/duplicate-tab.svg');
 }
 
 #zen-context-menu-compact-mode {
-  --menu-image: url('Assets\sidebar.svg');
+  --menu-image: url('assets/sidebar.svg');
 }
 
 #context_bookmarkTab,
@@ -364,13 +364,13 @@ menuitem[contexttype='fullscreen'][label*='Exit'] {
 #context-bookmarklink,
 #toolbar-context-bookmarkSelectedTab,
 #toolbar-context-bookmarkSelectedTabs {
-  --menu-image: url('Assets\bookmark-hollow.svg');
+  --menu-image: url('assets/bookmark-hollow.svg');
 }
 
 menuitem[id='placesContext_show_bookmark:info'],
 menuitem[id='placesContext_show_folder:info'],
 menuitem[id='placesContext_show:info'] {
-  --menu-image: url('Assets\edit.svg');
+  --menu-image: url('assets/edit.svg');
 }
 
 menuitem[id='placesContext_showAllBookmarks'],
@@ -378,7 +378,7 @@ menuitem[id='placesContext_showAllBookmarks'],
 #BMB_bookmarksShowAll,
 .customize-context-manageExtension,
 .unified-extensions-context-menu-manage-extension {
-  --menu-image: url('Assets\manage.svg');
+  --menu-image: url('assets/manage.svg');
 }
 
 #BMB_viewBookmarksSidebar {
@@ -386,48 +386,48 @@ menuitem[id='placesContext_showAllBookmarks'],
 }
 
 #BMB_searchBookmarks {
-  --menu-image: url('Assets\search-page.svg');
+  --menu-image: url('assets/search-page.svg');
 }
 
 menuitem[id='placesContext_new:bookmark'],
 menuitem[id='placesContext_new:folder'],
 menuitem[id='placesContext_new:separator'] {
-  --menu-image: url('Assets\plus.svg');
+  --menu-image: url('assets/plus.svg');
 }
 
 #context-savelinktopocket,
 #context-pocket {
-  --menu-image: url('Assets\pocket-outline.svg');
+  --menu-image: url('assets/pocket-outline.svg');
 }
 
 #context_moveTabOptions {
-  --menu-image: url('Assets\move-tab.svg');
+  --menu-image: url('assets/move-tab.svg');
 }
 
 .share-tab-url-item {
-  --menu-image: url('Assets\share.svg');
+  --menu-image: url('assets/share.svg');
 }
 
 #context_reopenInContainer {
-  --menu-image: url('Assets\container-tab.svg');
+  --menu-image: url('assets/container-tab.svg');
 }
 
 #context_closeTab {
-  --menu-image: url('Assets\close.svg');
+  --menu-image: url('assets/close.svg');
 }
 
 #context_closeTabOptions {
-  --menu-image: url('Assets\close-all.svg');
+  --menu-image: url('assets/close-all.svg');
 }
 
 #context_unloadTab,
 #context_zenTabActions {
-  --menu-image: url('Assets\close-all.svg');
+  --menu-image: url('assets/close-all.svg');
 }
 
 .customize-context-reportExtension,
 .unified-extensions-context-menu-report-extension {
-  --menu-image: url('Assets\report.svg');
+  --menu-image: url('assets/report.svg');
 }
 
  /* FIX header icons for the app menu sub menus (eg. fx account, history...) */
@@ -441,16 +441,16 @@ menuitem[id='placesContext_new:separator'] {
 }
 @media not (-moz-platform: linux) {
   .unified-extensions-context-menu-pin-to-toolbar {
-    --menu-image: url('Assets\pin.svg');
+    --menu-image: url('assets/pin.svg');
   }
 }
 
 .unified-extensions-context-menu-move-widget-down {
-  --menu-image: url('Assets\arrow-down.svg');
+  --menu-image: url('assets/arrow-down.svg');
 }
 
 .unified-extensions-context-menu-move-widget-up {
-  --menu-image: url('Assets\arrow-up.svg');
+  --menu-image: url('assets/arrow-up.svg');
 }
 
 :not(:not(menubar) > menu, #ContentSelectDropdown)
