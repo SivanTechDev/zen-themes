@@ -1,0 +1,1 @@
+Brings back the now removed context menu icons
