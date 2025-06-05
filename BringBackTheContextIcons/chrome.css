@@ -1,8 +1,8 @@
 :root {
-    --zen-contextmenu-menuitem-padding-inline: 6px;
-    --zen-contextmenu-menuicon-margin-inline: 48px; /* For standard icons */
-	  --zen-contextmenu-menuicon-margin-small-inline: 6px; /* For .menu-iconic-text */
-    --zen-contextmenu-menuitem-margin: 0px 2px;
+  --zen-contextmenu-menuitem-padding-inline: 6px;
+  --zen-contextmenu-menuicon-margin-inline: 48px; /* For standard icons */
+  --zen-contextmenu-menuicon-margin-small-inline: 6px; /* For .menu-iconic-text */
+  --zen-contextmenu-menuitem-margin: 0px 2px;
 }
 
 #context_zenSplitTabs {
@@ -69,7 +69,9 @@
 @media not (-moz-platform: windows) {
   menu > .menu-iconic-text,
   menuitem > .menu-iconic-text {
-    padding-inline-start: var(--zen-contextmenu-menuicon-margin-small-inline) !important;
+    padding-inline-start: var(
+      --zen-contextmenu-menuicon-margin-small-inline
+    ) !important;
   }
 }
 
@@ -142,10 +144,6 @@ menuitem[id="placesContext_deleteHost"],
 
 #context-take-screenshot {
   --menu-image: url("chrome://browser/skin/zen-icons/screenshot.svg");
-}
-
-#context-viewsource {
-  --menu-image: url("chrome://browser/skin/zen-icons/source-code.svg");
 }
 
 #context-inspect-a11y {
@@ -311,7 +309,7 @@ menuitem[id="placesContext_open:newprivatewindow"] {
 }
 
 #context-leave-dom-fullscreen,
-menuitem[contexttype="fullscreen'][label*='Exit"] {
+menuitem[contexttype="fullscreen"][label*="Exit"] {
   --menu-image: url("chrome://browser/skin/zen-icons/fullscreen-exit.svg");
 }
 
@@ -430,12 +428,12 @@ menuitem[id="placesContext_new:separator"] {
   --menu-image: url("chrome://browser/skin/zen-icons/report.svg");
 }
 
- /* FIX header icons for the app menu sub menus (eg. fx account, history...) */
- .panel-header > h1 {
-   text-align: left;
-   margin-left: 8px !important;
- }
- 
+/* FIX header icons for the app menu sub menus (eg. fx account, history...) */
+.panel-header > h1 {
+  text-align: left;
+  margin-left: 8px !important;
+}
+
 .wordmark::after {
   content: "Plus" !important;
 }
@@ -475,8 +473,8 @@ menuitem[id="placesContext_new:separator"] {
   ),
 :not(:not(menubar) > menu, #ContentSelectDropdown) > menupopup > menucaption {
   padding-inline-start: calc(
-    var(--zen-contextmenu-menuitem-padding-inline) + var(--zen-contextmenu-menuicon-margin-inline) /
-      2
+    var(--zen-contextmenu-menuitem-padding-inline) +
+      var(--zen-contextmenu-menuicon-margin-inline) / 2
   ) !important;
 }
 
