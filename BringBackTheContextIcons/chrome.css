@@ -466,7 +466,24 @@ menuitem[id="placesContext_new:separator"] {
   padding-inline-start: calc(
     var(--zen-contextmenu-menuitem-padding-inline) +
       var(--zen-contextmenu-menuicon-margin-inline) / 2
-  ) !important;
+  ) !important; /* Default: approx 30px */
+}
+
+/* Linux-specific adjustment for menucaption padding based on user feedback */
+@media (-moz-platform: linux) {
+  :not(:not(menubar) > menu, #ContentSelectDropdown) > menupopup > menucaption {
+    /*
+      Original calculation: var(--zen-contextmenu-menuitem-padding-inline) + var(--zen-contextmenu-menuicon-margin-inline) / 2 (approx. 30px).
+      Feedback indicated this created a "big gap" and that a calculation equivalent to using
+      var(--zen-contextmenu-menuicon-margin-inline) / 8 (approx. 12px)
+      was preferable.
+      This change implements that feedback. 
+    */
+    padding-inline-start: calc(
+      var(--zen-contextmenu-menuitem-padding-inline) +
+        var(--zen-contextmenu-menuicon-margin-inline) / 8
+    ) !important; /* Approx 12px on Linux */
+  }
 }
 
 menupopup > menuitem[type="checkbox"] .menu-iconic-left {
