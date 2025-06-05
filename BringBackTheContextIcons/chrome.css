@@ -2,7 +2,7 @@
   --zen-contextmenu-menuitem-padding-inline: 6px;
   --zen-contextmenu-menuicon-margin-inline: 48px; /* For standard icons */
   --zen-contextmenu-menuicon-margin-small-inline: 6px; /* For .menu-iconic-text */
-  --zen-contextmenu-menuitem-margin: 0px 2px;
+  --zen-contextmenu-menuitem-margin: 0 2px; /* 0px to 0 */
 }
 
 #context_zenSplitTabs {
@@ -28,7 +28,7 @@
 
 /* Context Menu Icons */
 
-#context-video-pictureinpicture:not([checked="$1"]) .menu-iconic-icon {
+#context-video-pictureinpicture:not([checked="true"]) .menu-iconic-icon {
   list-style-image: url("chrome://browser/skin/zen-icons/media-pip.svg") !important;
 }
 
@@ -469,7 +469,7 @@ menuitem[id="placesContext_new:separator"] {
   ) !important;
 }
 
-menupopup > menuitem:is([type="checkbox"]) .menu-iconic-left {
+menupopup > menuitem[type="checkbox"] .menu-iconic-left {
   --menu-image: none !important;
   margin-inline-start: 4px;
 
