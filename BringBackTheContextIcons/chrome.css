@@ -443,7 +443,7 @@ menuitem[id="placesContext_new:separator"] {
 }
 
 :not(:not(menubar) > menu, #ContentSelectDropdown)
-  > menupopup
+  > menupopup:not(#toolbar-context-menu)
   > menuitem:not(
     .menuitem-iconic,
     [type="checkbox"],
@@ -453,7 +453,7 @@ menuitem[id="placesContext_new:separator"] {
     .unified-nav-current
   ),
 :not(:not(menubar) > menu, #ContentSelectDropdown)
-  > menupopup
+  > menupopup:not(#toolbar-context-menu)
   > menu:not(
     .menu-iconic,
     [type="checkbox"],
