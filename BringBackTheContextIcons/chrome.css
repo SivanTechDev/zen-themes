@@ -443,7 +443,7 @@ menuitem[id="placesContext_new:separator"] {
 }
 
 :not(:not(menubar) > menu, #ContentSelectDropdown)
-  > menupopup:not(#placesContext[needsgutter]):not(#toolbar-context-menu)
+  > menupopup:not(#toolbar-context-menu)
   > menuitem:not(
     .menuitem-iconic,
     [type="checkbox"],
@@ -453,7 +453,7 @@ menuitem[id="placesContext_new:separator"] {
     .unified-nav-current
   ),
 :not(:not(menubar) > menu, #ContentSelectDropdown)
-  > menupopup:not(#placesContext[needsgutter]):not(#toolbar-context-menu)
+  > menupopup:not(#toolbar-context-menu)
   > menu:not(
     .menu-iconic,
     [type="checkbox"],
@@ -462,22 +462,11 @@ menuitem[id="placesContext_new:separator"] {
     .in-menulist menu,
     .unified-nav-current
   ),
-:not(:not(menubar) > menu, #ContentSelectDropdown) > menupopup:not(
-  #placesContext[needsgutter]) > menucaption, 
-  menupopup#toolbar-context-menu > menupopup,
-  menupopup#toolbar-context-menu > menuitem,
-  menupopup#toolbar-context-menu > menu {
+:not(:not(menubar) > menu, #ContentSelectDropdown) > menupopup > menucaption {
   padding-inline-start: calc(
     var(--zen-contextmenu-menuitem-padding-inline) +
       var(--zen-contextmenu-menuicon-margin-inline) / 2
   ) !important; /* Default: approx 30px */
-}
-
-/* Adds correct padding for bookmarks context menu */
-menupopup#placesContext[needsgutter] > menupopup,
-menupopup#placesContext[needsgutter] > menuitem,
-menupopup#placesContext[needsgutter] > menu {
-  padding-inline-start: 5px !important;
 }
 
 /* Linux-specific adjustment for menucaption padding based on user feedback */
